@@ -1,56 +1,117 @@
 export const flowers = [
+  // RED ROSES - Premium Collection
   {
     id: 1,
-    name: "Sunflowers",
-    price: 7.99,
-    stems: 5,
-    image: "https://images.unsplash.com/photo-1610689056471-5c5d6fed2b1f?w=500&h=500&fit=crop",
-    description: "Bright and cheerful sunflowers to brighten any room",
-    colors: ["Yellow"]
+    name: "Red Roses - Be Sweet",
+    variety: "Be Sweet",
+    color: "Red",
+    collection: "Premium Red Roses",
+    stems: 25,
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop",
+    description: "Premium red roses - Be Sweet variety",
+    sizes: [
+      { height: "40CM", price: 29.00, pricePerStem: 1.16 },
+      { height: "50CM", price: 30.50, pricePerStem: 1.22 },
+      { height: "60CM", price: 33.75, pricePerStem: 1.35 },
+      { height: "70CM", price: 36.25, pricePerStem: 1.45 },
+      { height: "80CM", price: 38.75, pricePerStem: 1.55 },
+      { height: "90CM", price: 43.75, pricePerStem: 1.75 },
+      { height: "100CM", price: 48.75, pricePerStem: 1.95 }
+    ]
   },
   {
     id: 2,
-    name: "Tulips",
-    price: 10.99,
-    stems: 10,
-    colors: ["Yellow", "Pink", "Red"],
-    image: "https://images.unsplash.com/photo-1575694312614-b3fb3d1b2e96?w=500&h=500&fit=crop",
-    description: "Beautiful spring tulips in vibrant colors"
+    name: "Red Roses - Scarlatta",
+    variety: "Scarlatta",
+    color: "Red",
+    collection: "Premium Red Roses",
+    stems: 25,
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop",
+    description: "Premium red roses - Scarlatta variety",
+    sizes: [
+      { height: "40CM", price: 29.00, pricePerStem: 1.16 },
+      { height: "50CM", price: 30.50, pricePerStem: 1.22 },
+      { height: "60CM", price: 33.75, pricePerStem: 1.35 },
+      { height: "70CM", price: 36.25, pricePerStem: 1.45 },
+      { height: "80CM", price: 38.75, pricePerStem: 1.55 },
+      { height: "90CM", price: 43.75, pricePerStem: 1.75 },
+      { height: "100CM", price: 48.75, pricePerStem: 1.95 }
+    ]
   },
   {
     id: 3,
-    name: "Roses",
-    price: 12.99,
-    stems: 12,
-    colors: ["Red", "Pink", "White"],
+    name: "Red Roses - Fortune",
+    variety: "Fortune",
+    color: "Red",
+    collection: "Premium Red Roses",
+    stems: 25,
     image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop",
-    description: "Classic elegant roses perfect for any occasion"
+    description: "Premium red roses - Fortune variety",
+    sizes: [
+      { height: "40CM", price: 29.00, pricePerStem: 1.16 },
+      { height: "50CM", price: 30.50, pricePerStem: 1.22 },
+      { height: "60CM", price: 33.75, pricePerStem: 1.35 },
+      { height: "70CM", price: 36.25, pricePerStem: 1.45 },
+      { height: "80CM", price: 38.75, pricePerStem: 1.55 },
+      { height: "90CM", price: 43.75, pricePerStem: 1.75 },
+      { height: "100CM", price: 48.75, pricePerStem: 1.95 }
+    ]
   },
   {
     id: 4,
-    name: "Daisies",
-    price: 5.99,
-    stems: 15,
-    colors: ["White", "Yellow"],
-    image: "https://images.unsplash.com/photo-1520763185298-1b434c919eba?w=500&h=500&fit=crop",
-    description: "Fresh and cheerful daisies with long stems"
+    name: "Red Roses - Explore",
+    variety: "Explore",
+    color: "Red",
+    collection: "Premium Red Roses",
+    stems: 25,
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop",
+    description: "Premium red roses - Explore variety",
+    sizes: [
+      { height: "40CM", price: 29.00, pricePerStem: 1.16 },
+      { height: "50CM", price: 30.50, pricePerStem: 1.22 },
+      { height: "60CM", price: 33.75, pricePerStem: 1.35 },
+      { height: "70CM", price: 36.25, pricePerStem: 1.45 },
+      { height: "80CM", price: 38.75, pricePerStem: 1.55 },
+      { height: "90CM", price: 43.75, pricePerStem: 1.75 },
+      { height: "100CM", price: 48.75, pricePerStem: 1.95 }
+    ]
   },
   {
     id: 5,
-    name: "Lavender",
-    price: 8.99,
-    stems: 20,
-    colors: ["Purple"],
-    image: "https://images.unsplash.com/photo-1578706139291-72f18b75d9b1?w=500&h=500&fit=crop",
-    description: "Fragrant purple lavender bunches"
+    name: "Red Roses - Vendor Preferred",
+    variety: "Vendor Preferred",
+    color: "Red",
+    collection: "Premium Red Roses",
+    stems: 25,
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop",
+    description: "Premium red roses - Vendor Preferred variety",
+    sizes: [
+      { height: "40CM", price: 29.00, pricePerStem: 1.16 },
+      { height: "50CM", price: 30.50, pricePerStem: 1.22 },
+      { height: "60CM", price: 33.75, pricePerStem: 1.35 },
+      { height: "70CM", price: 36.25, pricePerStem: 1.45 },
+      { height: "80CM", price: 38.75, pricePerStem: 1.55 },
+      { height: "90CM", price: 43.75, pricePerStem: 1.75 },
+      { height: "100CM", price: 48.75, pricePerStem: 1.95 }
+    ]
   },
   {
     id: 6,
-    name: "Orchids",
-    price: 15.99,
-    stems: 8,
-    colors: ["Purple", "White", "Pink"],
-    image: "https://images.unsplash.com/photo-1576183637118-f1a75269a5e9?w=500&h=500&fit=crop",
-    description: "Exotic and elegant orchids for special occasions"
+    name: "Red Roses - Rediant",
+    variety: "Rediant",
+    color: "Red",
+    collection: "Premium Red Roses",
+    stems: 25,
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&h=500&fit=crop",
+    description: "Premium red roses - Rediant variety",
+    sizes: [
+      { height: "40CM", price: 27.50, pricePerStem: 1.10 },
+      { height: "50CM", price: 30.00, pricePerStem: 1.20 },
+      { height: "60CM", price: 32.50, pricePerStem: 1.30 },
+      { height: "70CM", price: 35.00, pricePerStem: 1.40 },
+      { height: "80CM", price: 37.50, pricePerStem: 1.50 },
+      { height: "90CM", price: 40.00, pricePerStem: 1.60 },
+      { height: "100CM", price: 43.75, pricePerStem: 1.75 }
+    ]
   }
 ];
